@@ -19,7 +19,12 @@ public class Card {
     /**
      * @return the suit
      */
-    public String getSuit() {
+    
+   public Card() {
+       
+   }
+   
+   public String getSuit() {
         return suit;
     }
 
